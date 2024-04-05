@@ -16,9 +16,6 @@ function convert(){
             } else if (toUnit === 'K'){
                 convertedValue = temperature + 273.15;
                 resultUnit = 'K';
-            }else if (toUnit === 'R'){
-                convertedValue = temperature + 273.15;
-                resultUnit = 'R';
             }else{
                 convertedValue = temperature;
                 resultUnit = 'C';
@@ -32,9 +29,6 @@ function convert(){
             } else if (toUnit === 'K'){
                 convertedValue = (temperature -32) * 5/9 + 273.15;
                 resultUnit = 'K';
-            }else if (toUnit === 'R'){
-                convertedValue = temperature + 459.67;
-                resultUnit = 'R';
             }else{
                 convertedValue = temperature;
                 resultUnit = 'F';
@@ -48,9 +42,6 @@ function convert(){
             } else if (toUnit === 'K'){
                 convertedValue = (temperature - 273.15) * 9/5 +32;
                 resultUnit = 'K';
-            }else if (toUnit === 'R'){
-                convertedValue = temperature * 9/5;
-                resultUnit = 'R';
             }else{
                 convertedValue = temperature;
                 resultUnit = 'K';
